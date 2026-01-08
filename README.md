@@ -5,17 +5,17 @@ A real-time routing application built with Laravel and React. This dashboard all
 Follow these steps to get the project running locally:
 
 **1. Clone the repository:**
-   git clone [https://github.com/IanPolicarpio/direction-map.git](https://github.com/IanPolicarpio/direction-map.git)
-   cd direction-map
+   *git clone [https://github.com/IanPolicarpio/direction-map.git](https://github.com/IanPolicarpio/direction-map.git)
+   *cd direction-map
    
 **2. Install Dependencies:**
-    composer install
-    npm install
+    *composer install
+    *npm install
    
 **3. Environment Setup:**
-- Copy .env.example to .env.
-- Configure your database settings in the .env file.
-    php artisan key:generate
+*- Copy .env.example to .env.
+*- Configure your database settings in the .env file.
+    *php artisan key:generate
    
 **4. Database Migration:**
     php artisan migrate

@@ -50,7 +50,7 @@ Follow these steps to get the project running locally:
 **Active Route**
 ![route](route.png)
 
-**Edit Mode**
+**Edit Route**
 ![edit](edit.png)
 
 **Delete Route**

@@ -42,3 +42,4 @@ Follow these steps to get the project running locally:
 
 ## 📸 Screenshots
 **Main DashBoard**
+![main](main.png)

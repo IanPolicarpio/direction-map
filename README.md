@@ -9,13 +9,13 @@ Follow these steps to get the project running locally:
    - cd direction-map
    
 **2. Install Dependencies:**
-    - composer install
-    - npm install
+- composer install
+- npm install
    
 **3. Environment Setup:**
 - Copy .env.example to .env.
 - Configure your database settings in the .env file.
-    - php artisan key:generate
+    - php artisan key: generate
    
 **4. Database Migration:**
     - php artisan migrate

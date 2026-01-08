@@ -6,7 +6,7 @@ Follow these steps to get the project running locally:
 
 **1. Clone the repository:**
    git clone [https://github.com/IanPolicarpio/direction-map.git](https://github.com/IanPolicarpio/direction-map.git)
-   '''cd direction-map
+   ```cd direction-map
    
 **2. Install Dependencies:**
     composer install

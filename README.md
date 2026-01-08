@@ -1,19 +1,44 @@
-# Direction Map Web Application
+# Direction Map Dashboard
+A real-time routing application built with Laravel and React. This dashboard allows users to search for locations, calculate distances, and visualize driving paths using interactive maps.
 
-## Tech Stack
-- **Backend:** Laravel 12
-- **Frontend:** React (Inertia.js + Vite)
-- **Database:** MySQL
-- **Maps:** Leaflet.js & OpenStreetMap
-- **Routing:** OSRM (Open Source Routing Machine)
+## 🚀 Project Setup Steps
+Follow these steps to get the project running locally:
 
-## Setup Instructions
-1. Clone the repo and run `composer install` & `npm install`.
-2. Configure `.env` with your MySQL database.
-3. Run `php artisan migrate:fresh --seed`.
-4. Run `npm run build`.
-5. Login at `/login` with `admin@example.com` / `password`.
+**1. Clone the repository:**
+   git clone [https://github.com/IanPolicarpio/direction-map.git](https://github.com/IanPolicarpio/direction-map.git)
+   cd direction-map
+   
+**2. Install Dependencies:**
+    composer install
+    npm install
+   
+**3. Environment Setup:**
+- Copy .env.example to .env.
+- Configure your database settings in the .env file.
+    php artisan key:generate
+   
+**4. Database Migration:**
+    php artisan migrate
 
-## AI Tools Used
-- Gemini (Logic Architecture & Debugging)
-- GitHub Copilot (Code Completion)
+**5. Build and Run:**
+- Compile Assets for Production:
+    npm run build
+
+- Start the Server:
+    php artisan serve
+  
+- Access the application at http://127.0.0.1:8000.
+
+## 🛠 Tech Stack Used
+- **Backend:** Laravel (PHP 8+)
+- **Frontend:** React.js, Inertia.js, Tailwind CSS
+- **Mapping:** Leaflet.js, React-Leaflet
+- **APIs: * OSRM (Open Source Routing Machine):** For real-time driving path data.
+    - **Nominatim (OpenStreetMap):** For Geocoding (converting address names to GPS coordinates).
+- **Icons:** Lucide React
+
+## 🤖 AI Tools Used
+- Gemini (Google AI): Used as a thought partner for code optimization, logic breakdown of the Haversine formula, and generating simple-term documentation to ensure full understanding of the code logic.
+
+## 📸 Screenshots
+**Main DashBoard**

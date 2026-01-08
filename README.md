@@ -41,5 +41,17 @@ Follow these steps to get the project running locally:
 - Gemini (Google AI): Used as a thought partner for code optimization, logic breakdown of the Haversine formula, and generating simple-term documentation to ensure full understanding of the code logic.
 
 ## 📸 Screenshots
-**Main DashBoard**
+**Main Dashboard**
 ![main](main.png)
+
+**Dark Mode**
+![dark](dark.png)
+
+**Active Route**
+![route](route.png)
+
+**Edit Mode**
+![edit](edit.png)
+
+**Delete Route**
+![deleteroute](deleteroute.png)
